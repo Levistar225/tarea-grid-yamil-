@@ -1,0 +1,72 @@
+.contenedor
+{
+    background-color: rgb(132, 14, 243);
+    padding: 10px;
+    font-size: 23px;
+    text-align: center;
+    display: grid;
+    grid-gap: 1cap;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr;
+    grid-template-areas: "header    header    header"
+                         "nav       nav       nav"
+                         "section   sectio    ads"
+                         "foot      foot      foot"
+                         "rrss      rrs       rss" ;
+}
+.contenedor .header
+{
+    background-color: rgb(75, 225, 125);
+    grid-column: 1/6;
+    grid-row: 1/2;
+    
+
+}
+.contenedor .nav
+{
+    background-color: rgb(52, 10, 238);
+    grid-column: 1/6;
+    grid-row: 2/3;
+
+}
+.contenedor .section
+{
+    background-color: rgb(205, 86, 86);
+   
+    
+}
+.contenedor .sectio
+{
+    background-color: rgb(202, 105, 105);
+    grid-column: sectio;
+    
+}
+.contenedor .ads
+{
+    background-color: rgb(255, 87, 40);
+    grid-column: 3/6;
+}
+.pou{
+    background-color: aliceblue;
+    margin: 20px;
+}
+.contenedor .foot
+{
+    background-color: rgb(152, 118, 93);
+    grid-column: 1/6;
+}
+.contenedor .rrss
+{
+    background-color: rgb(70, 112, 225);
+    grid-column: rrss;
+}
+.contenedor .rrs
+{
+    background-color: rgb(70, 112, 225);;
+    grid-column: rrs;
+}
+.contenedor .rss
+{
+    background-color: rgb(70, 112, 225);;
+    grid-column: 3/6;
+}
